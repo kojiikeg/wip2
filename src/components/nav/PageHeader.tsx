@@ -3,21 +3,15 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import { navItems } from "./navItems";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
-const navItems = [
-  { href: "/", label: "ホーム" },
-  { href: "/treatment", label: "診察内容" },
-  { href: "/about", label: "クリニック紹介" },
-  { href: "/first-visit", label: "初めての方へ" },
-];
-
-export default function Header() {
+export default function PageHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-green-600 text-white sticky top-0 z-50">
+    <header className="bg-green-600 text-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between py-3">
           {/* ロゴ */}
@@ -27,7 +21,10 @@ export default function Header() {
               alt="みなみクリニック ロゴ"
               className="w-10 h-10 object-contain rounded-lg"
             />
-            <span className="text-lg font-bold hidden sm:block">みなみクリニック</span>
+            <span className="flex flex-wrap gap-x-2 text-lg font-bold">
+              <span>リハビリ整形外科</span>
+              <span>みなみクリニック</span>
+            </span>
           </Link>
 
           {/* デスクトップメニュー */}
