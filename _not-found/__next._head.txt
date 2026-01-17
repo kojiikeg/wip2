@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/wip2/_next/static/chunks/e0f7069e6616955e.js"],"ViewportBoundary"]
+3:I[97367,["/wip2/_next/static/chunks/e0f7069e6616955e.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[27201,["/wip2/_next/static/chunks/e0f7069e6616955e.js"],"IconMark"]
+0:{"buildId":"k6bQcE9Q-pWg_3riTAnMg","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"リハビリ整形外科みなみクリニック"}],["$","link","1",{"rel":"manifest","href":"/wip2/manifest.json"}],["$","link","2",{"rel":"icon","href":"/wip2/favicon.ico?favicon.465457da.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","3",{"rel":"icon","href":"/wip2/icon.svg?icon.76b5a36e.svg","sizes":"any","type":"image/svg+xml"}],["$","link","4",{"rel":"apple-touch-icon","href":"/wip2/apple-icon.png?apple-icon.6fc75e45.png","sizes":"180x180","type":"image/png"}],["$","$L5","5",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
